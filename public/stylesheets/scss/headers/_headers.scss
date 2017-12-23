@@ -1,0 +1,20 @@
+#cmf-header-pane {
+    width     : 100%;
+    min-height: var(--header-height);
+    display   : flex;
+    justify-content: space-between;
+    padding   : 0 16px;
+    box-sizing: border-box;
+    background-color: lighten($base-color, 10%);
+    background-image: linear-gradient(
+        to top,
+        $base-color, lighten($base-color, 10%)
+    );
+    box-shadow: 0 2px 1px rgba(0, 0, 0, .23);
+    z-index   : 95;
+}
+
+.logo-pane {
+    width : 600px;
+    height: var(--header-height);
+}
